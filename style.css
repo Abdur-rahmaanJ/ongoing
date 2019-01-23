@@ -9,6 +9,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 nav{
     height: 65px;
@@ -140,6 +141,7 @@ nav{
     border: 10px solid orange;
     display: inline-block;
     margin: 20px;
+    text-transform: uppercase;
 }
 .page-descrip{
     border: 1px solid gray;
@@ -147,4 +149,27 @@ nav{
     padding:10px;
     width: 350px;
     display: inline-block;
+}
+
+.available{
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+}
+.av{
+    display: inline-block;
+    text-align: center;
+    float: left;
+    margin: 10px;
+}
+.av-channel{
+    width: 75px; height: 75px; line-height: 75px;
+    border-radius: 50%;
+    background-color: #4e3a5e;
+    color: white;
+    border: 10px solid #65497a;
+    display: inline-block;
+}
+.av-descrip{
+
 }
